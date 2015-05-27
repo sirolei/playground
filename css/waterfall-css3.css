@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #99CCCC;
+}
+
+#head{
+	background: #009999;
+	width: 100%;
+	padding: 10px 0px;
+}
+
+#head p{
+	font-size: 40px;
+	font-family: "隶书";
+	text-align: center;
+	color: white;
+	letter-spacing: 5px;
+}
+
+#main{
+	width: 1366px;
+	margin: 50px auto;
+	-webkit-column-width:400px;
+	-moz-colum-width:400px;
+	-ms-colum-width:400px;
+	-p-colum-width:400px;
+}
+
+.box{
+	width:400px;
+	padding: 10px;
+	border: 1px solid #cccccc;
+	background: white;
+	
+	border-radius: 5px;
+	margin: 10px;
+	box-shadow: 0 0 5px #ccc;
+}
+
+.box img{
+	width: 100%;
+}
